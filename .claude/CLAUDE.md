@@ -32,6 +32,8 @@ domains/
     background/       ← source documents for this domain (business plan, resume, brief, etc.)
 ```
 
+IMPORTANT: `background/` directory should only be used to improve the prompt. Only read if user asks explicitly, or `prompt.md` is empty.
+
 ---
 
 ## Search Execution Guidelines
