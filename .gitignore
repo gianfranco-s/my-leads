@@ -1,0 +1,5 @@
+**/background/
+
+# domains/
+# !domains/job-search/
+# !domains/job-search/**
