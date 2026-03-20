@@ -34,3 +34,4 @@ Teaches Claude brainstorming, subagent driven development with built in code rev
 
 ### skill: document-skill
 Add `https://github.com/anthropics/skills`  "Manage Plugins" -> "Marketplaces", then search for "pdf"
+Provides document handling capabilities
