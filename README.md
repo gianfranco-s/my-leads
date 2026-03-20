@@ -1,9 +1,11 @@
+# my-leads
 
-## Notes on Privacy and Data
+An AI-assisted lead generation workflow built using Claude Code. Designed to find, qualify, and track leads across independent domains — job opportunities, sales prospects, or donation outreach — with LinkedIn and web search as primary sources.
 
-- Lead research results (`leads.csv`, `leads-research/`) are **not tracked by git** — keep them local.
-- Background source documents (`background/`) are also excluded from version control.
-- Consider using a **dummy LinkedIn account** for scraping to protect your primary account from restrictions or suspension.
+More details at:
+* ./claude/CLAUDE.md
+* plan.md
+
 
 ## Install LinkedIn MCP Server
 ```sh
@@ -26,7 +28,7 @@ The container runs a headless Chromium **inside Docker** (bundled within the ima
 There's an existing one, based on the documentation, here: `./.claude/settings.json`
 This will effectively start a container with the MCP server whenever VSCode starts (and loads the current project.)
 
-## Additionall suggested official tools
+## Additional suggested official tools
 ### plugin: superpowers
 Add it from "Manage Plugins" -> "Superpowers"
 Referenced by the official plugins marketplace: https://github.com/obra/superpowers
@@ -35,3 +37,10 @@ Teaches Claude brainstorming, subagent driven development with built in code rev
 ### skill: document-skill
 Add `https://github.com/anthropics/skills`  "Manage Plugins" -> "Marketplaces", then search for "pdf"
 Provides document handling capabilities
+
+
+## Notes on Privacy and Data
+
+- Lead research results (`leads.csv`, `leads-research/`) **should not be tracked by git** — keep them local.
+- Background source documents (`background/`) are also excluded from version control.
+- Consider using a **dummy LinkedIn account** for scraping to protect your primary account from restrictions or suspension.

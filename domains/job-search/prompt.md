@@ -4,17 +4,15 @@
 **Name:** Gianfranco Salomone
 **Title:** Python Developer / Backend AI Engineer
 **Seniority:** Senior
-**Location:** Buenos Aires, Argentina — open to remote
-**Languages:** Spanish (native), English (professional)
+**Location:** Río Negro, Argentina — open to remote
+**Languages:** Spanish (native), English (C2)
 
 **Core strengths:**
 - Python backend (FastAPI, Flask, Django)
 - DevOps & cloud (AWS, Docker, Terraform, Ansible, CI/CD)
-- AI/ML integration (LLMs, RAG, Langchain, OpenAI, Ollama)
-- Data engineering (ETL pipelines, SAP HANA, PostgreSQL)
+- AI/ML integration (LLMs, RAG, OpenAI, Ollama)
 - Team lead experience (code review, mentoring, advocating best practices)
-
-**Notable:** currently working remotely for a US company (EPIC iO), so has proven async/remote track record.
+- Worked for US-based companies
 
 ---
 
@@ -52,7 +50,7 @@ Gianfranco has hands-on domain experience in this vertical — lead with that wh
 - AI, LLMs, or automation work
 - Small-to-mid engineering teams (signal: the hire matters more)
 
-**For each candidate, capture:**
+**For each prospect, capture:**
 - Company name + job post URL
 - Hiring manager or recruiter name + LinkedIn
 - Role title and key requirements
