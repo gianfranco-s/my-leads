@@ -1,5 +1,4 @@
 **/background/
 
-# domains/
-# !domains/job-search/
-# !domains/job-search/**
+domains/software-company
+domains/donations

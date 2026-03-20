@@ -1,4 +1,10 @@
 
+## Notes on Privacy and Data
+
+- Lead research results (`leads.csv`, `leads-research/`) are **not tracked by git** — keep them local.
+- Background source documents (`background/`) are also excluded from version control.
+- Consider using a **dummy LinkedIn account** for scraping to protect your primary account from restrictions or suspension.
+
 ## Install LinkedIn MCP Server
 ```sh
 uvx patchright install chromium
