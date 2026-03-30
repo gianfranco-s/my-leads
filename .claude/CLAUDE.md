@@ -28,6 +28,7 @@ domains/
   my-awesome-domain-name/
     prompt.md         ← search directive for this domain
     leads.csv         ← summary of all leads found
+    rejected.csv      ← candidates checked and discarded (do not re-evaluate)
     leads-research/   ← one detail file per lead
     background/       ← source documents for this domain (business plan, resume, brief, etc.)
 ```
@@ -52,6 +53,7 @@ Use both tools. There is no fixed sequence — choose based on where the signal 
 - Do not make more than 10 LinkedIn MCP calls per run
 
 **Search discipline**
+- Before profiling any candidate, check `rejected.csv` — skip any company already listed there
 - Evaluate and shortlist after each tool phase — do not pull full profiles for every result
 - Pull `get_company_profile` only for companies that match at least 2 entry signals
 - Pull `get_person_profile` only for companies already shortlisted
@@ -61,6 +63,8 @@ Use both tools. There is no fixed sequence — choose based on where the signal 
 - A candidate is "qualified" if it has: a company name, a fit signal, an estimated size, and at least one named contact
 
 **Output discipline**
-- Do not write to the output file until all searches are complete
+- Do not write to leads.csv until all searches are complete
 - Write all candidates in a single pass — do not append incrementally
 - Flag candidates with missing fields rather than omitting them
+- At the end of every search run, append all discarded candidates to `rejected.csv` with columns: `company,url,reason,date_checked`
+  - Valid reasons: `competitor`, `too large`, `wrong sector`, `already funded/has tech team`, `no decision-maker`, `insufficient signals`
